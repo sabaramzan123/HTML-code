@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms _ Let's learn it</title>
+</head>
+<body>
+    <h1>Form to apply for Web Development</h1>
+    <form action="Post">
+        <div>
+            <label for="username">Enter your Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </div>
+
+        <div>
+            <label for="gender">Enter your Gender</label>
+            <input type="radio" name="gender" id="Male" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Female" value="Female">
+            <label for="Female">Female</label>
+        </div>
+
+        <div>
+            <label for="check">Select more than one</label>
+            <input type="checkbox" name="Subscribe" id="check">
+            <label for="check">Sunscribe to news letter</label>
+            <input type="checkbox" name="Subscribe" id="check">
+            <label for="check">Subscribe to youtube channel</label>
+            <input type="checkbox" name="Subscribe" id="check">
+            <label for="check">Subscribe to facebook</label>
+        </div>
+
+        <div>
+            <label for="comment">Comment Area : </label>
+            <br>
+            <textarea name="Comment" id="commennt" rows="4" cols="50">Enter your comment here : </textarea>
+        </div>
+
+        <div>
+            <label for="designation">Choose your designation</label>
+            <select name="Designation" id="designation">
+            <option value="Doctor">Doctor</option>
+            <option value="Engineer">Engineer</option>
+            <option value="Lawyer">Lawyer</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Businessman">Businessman</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

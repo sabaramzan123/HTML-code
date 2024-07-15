@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+</head>
+<body>
+    <h1>Employee details Form</h1>
+    <form action="submit-form" method="post">
+        <!-- First name and Last name -->
+        <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+        </div>
+        <br>
+        <div>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+        </div>
+        <br>
+        <!-- Username -->
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+        </div>
+        <br>
+
+        <!-- Password -->
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+        <br>
+
+        <!-- Email -->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <br>
+
+        <!-- Phone number -->
+        <div>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+        </div>
+        <br>
+
+        <!-- Date of birth -->
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+        </div>
+        <br>
+
+        <!-- Address -->
+        <div>
+            <label for="address">Address:</label>
+            <br>
+            <textarea id="address" name="address" rows="10" cols="50" placeholder="Enter your address"></textarea>
+        </div>
+        <br>
+
+        <!-- Country dropdown -->
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+        <br>
+
+        <!-- Gender -->
+        <div>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+
+        <!-- File upload -->
+        <div>
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume">
+        </div>
+        <br>
+
+        <!-- Checkbox for agreement -->
+        <div>
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">I agree to the terms and conditions</label>
+        </div>
+        <br>
+
+        <!-- Hidden input -->
+        <div>
+            <input type="hidden" name="userId" value="12345">
+        </div>
+        <br>
+        
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
+        <!-- Submit button -->
+</body>
+</html>
